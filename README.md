@@ -154,22 +154,6 @@ cd backend
 yarn test
 ```
 
-## Project Structure
-
-```
-task-manager/
-├── frontend/              # React frontend
-│   ├── Dockerfile         # Frontend Docker configuration
-│   ├── src/               # React source files
-│   └── ...
-├── backend/               # NestJS backend
-│   ├── Dockerfile         # Backend Docker configuration
-│   ├── src/               # NestJS source files
-│   └── ...
-├── docker-compose.yml     # Docker Compose configuration
-└── README.md              # This documentation
-```
-
 ## Usage
 
 1. Add a new task by filling out the form on the left side with a title and description
