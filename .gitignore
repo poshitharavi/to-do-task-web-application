@@ -1,0 +1,48 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.pid
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build files
+dist/
+**/dist/
+build/
+**/build/
+.out/
+.next/
+
+# Vite-specific
+.cache/
+.temp/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.nyc_output/
+
+# NestJS-specific
+**/*.js.map
+**/*.d.ts
+**/*.metadata.json
+
+# Vite/React-specific
+public/env.js
+.env
+.env.production
+.env.development
