@@ -1,11 +1,8 @@
 import { useEffect } from "react";
 
 import { useTaskStore } from "../../store/taskStore";
-
-import Navbar from "../../components/ui/Navbar";
-import BodyCard from "../../components/ui/BodyCard";
-import TaskCard from "../../components/Home/TaskCard";
-import AddTask from "../../components/Home/AddTask";
+import { BodyCard, Navbar } from "../../components/ui";
+import { AddTask, TaskCard } from "../../components/Home";
 
 const Home = () => {
   const { tasks, fetchTasks, completeTask } = useTaskStore();
