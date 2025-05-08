@@ -1,7 +1,9 @@
-import { defineConfig } from "vite";
+import { defineConfig, UserConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { UserConfig as VitestUserConfig } from "vitest/config";
 
-// https://vite.dev/config/
+interface CombinedUserConfig extends UserConfig, VitestUserConfig {}
+
 export default defineConfig({
   plugins: [react()],
   test: {
@@ -10,4 +12,4 @@ export default defineConfig({
     setupFiles: "./src/setupTests.ts",
     css: true,
   },
-});
+} as CombinedUserConfig);
