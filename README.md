@@ -2,7 +2,7 @@
 
 A full-stack todo task manager application with a React frontend and NestJS backend.
 
-![Task Manager Screenshot](https://via.placeholder.com/800x400?text=Task+Manager+Screenshot)
+![Task Manager Screenshot](./images/task-manager-screenshot.png)
 
 ## Features
 
